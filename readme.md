@@ -1,0 +1,15 @@
+- 提供一个自动化部署Moemail的解决方案
+- 新增工作流可构建发布 Moemail自动化部署执行文件
+- 自动化部署菜单可选择 
+- 1.全流程部署
+- 2.创建github app 获取
+- [ ] **AUTH_GITHUB_ID**
+- [ ]  **AUTH_GITHUB_SECRET** 
+- [ ]  **AUTH_SECRET**
+- 3.创建Cloudflare 的D1, KV,以及Page  获取 
+- [ ] **CLOUDFLARE_ACCOUNT_ID**: Cloudflare 账户 ID
+- [ ] **DATABASE_NAME**: D1 数据库名称
+- [ ] **DATABASE_ID**: D1 数据库 ID
+- [ ] **KV_NAMESPACE_ID**: Cloudflare KV namespace ID，用于存储网站配置
+- **CLOUDFLARE_API_TOKEN**  仍需手动生成 ，并在.env文件内填写 CLOUDFLARE_API_TOKEN = xxxxx
+- 4.自动fork 和 填入 .env文件内的的变量  并 运行部署
