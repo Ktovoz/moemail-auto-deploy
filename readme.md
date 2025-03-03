@@ -8,6 +8,28 @@
 - 新增工作流可构建并发布 Moemail 自动化部署执行文件
 - 提供友好的自动化部署菜单，包含多种部署选项
 
+## 使用介绍
+
+### 准备工作
+
+在开始部署之前，请确保您已经：
+
+1. 准备好要部署 Moemail 的域名
+2. 拥有 GitHub 账号
+3. 拥有 Cloudflare 账号
+
+### 开始使用
+
+1. 访问本项目的 [Releases](https://github.com/your-repo/moemail-auto-deploy/releases) 页面
+2. 根据您的操作系统下载对应的可执行文件：
+   - Windows: `moemail-auto-deploy-windows.exe`
+   - MacOS: `moemail-auto-deploy-macos`
+   - Linux: `moemail-auto-deploy-linux`
+3. 直接运行下载的可执行文件
+4. 在弹出的菜单中选择您需要的部署选项
+
+> **提示**：首次运行时，系统会提示您登录 GitHub 和 Cloudflare。请按照提示完成登录，登录后按回车键继续。
+
 ## 部署选项
 
 > **重要提醒**：在所有需要访问GitHub或Cloudflare的操作中，系统会提示您手动登录相应平台。登录完成后，请按回车键继续，程序将自动保存cookie并继续执行后续操作。您可以随时管理和删除这些cookie文件。
